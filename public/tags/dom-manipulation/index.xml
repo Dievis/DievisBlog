@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DOM Manipulation on Blog của Trần Phát Đạt</title>
+    <link>http://localhost:1313/tags/dom-manipulation/</link>
+    <description>Recent content in DOM Manipulation on Blog của Trần Phát Đạt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-vi</language>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/dom-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Làm việc với DOM trong JavaScript</title>
+      <link>http://localhost:1313/en/posts/lamviecvoidomtrongjs/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/lamviecvoidomtrongjs/</guid>
+      
+      <description>&lt;h1 id=&#34;làm-việc-với-dom-trong-javascript&#34;&gt;&lt;strong&gt;Làm việc với DOM trong JavaScript&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-chọn-phần-tử-dom&#34;&gt;&lt;strong&gt;1. Chọn phần tử DOM&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; element &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; document.getElementById(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;demo&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-thay-đổi-nội-dung&#34;&gt;&lt;strong&gt;2. Thay đổi nội dung&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;element.innerHTML &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Hello DOM!&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-tạo-phần-tử-mới&#34;&gt;&lt;strong&gt;3. Tạo phần tử mới&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; newElement &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; document.createElement(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;p&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;newElement.textContent &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Thêm đoạn văn mới&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;document.body.appendChild(newElement);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-kết-luận&#34;&gt;&lt;strong&gt;4. Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;DOM là công cụ mạnh mẽ để thao tác và tương tác với trang web.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

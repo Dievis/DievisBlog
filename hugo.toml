@@ -1,4 +1,4 @@
-baseURL = 'https://676cbd36a020d20273ecece7--dattpblog.netlify.app/'
+baseURL = 'https://dattpblog.netlify.app'
 languageCode = 'en-vi'
 title = 'Blog của Trần Phát Đạt'
 theme = 'awesome'

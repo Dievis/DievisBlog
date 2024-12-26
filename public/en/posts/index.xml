@@ -214,6 +214,152 @@
     </item>
     
     <item>
+      <title>Làm việc với DOM trong JavaScript</title>
+      <link>http://localhost:1313/en/posts/lamviecvoidomtrongjs/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/lamviecvoidomtrongjs/</guid>
+      
+      <description>&lt;h1 id=&#34;làm-việc-với-dom-trong-javascript&#34;&gt;&lt;strong&gt;Làm việc với DOM trong JavaScript&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-chọn-phần-tử-dom&#34;&gt;&lt;strong&gt;1. Chọn phần tử DOM&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; element &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; document.getElementById(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;demo&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-thay-đổi-nội-dung&#34;&gt;&lt;strong&gt;2. Thay đổi nội dung&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;element.innerHTML &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Hello DOM!&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-tạo-phần-tử-mới&#34;&gt;&lt;strong&gt;3. Tạo phần tử mới&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; newElement &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; document.createElement(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;p&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;newElement.textContent &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Thêm đoạn văn mới&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;document.body.appendChild(newElement);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-kết-luận&#34;&gt;&lt;strong&gt;4. Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;DOM là công cụ mạnh mẽ để thao tác và tương tác với trang web.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Vòng lặp và câu lệnh điều kiện trong JavaScript</title>
+      <link>http://localhost:1313/en/posts/vonglapv%C3%A0cmdtrongjs/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/vonglapv%C3%A0cmdtrongjs/</guid>
+      
+      <description>&lt;h1 id=&#34;vòng-lặp-và-câu-lệnh-điều-kiện-trong-javascript&#34;&gt;&lt;strong&gt;Vòng lặp và câu lệnh điều kiện trong JavaScript&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-câu-lệnh-điều-kiện&#34;&gt;&lt;strong&gt;1. Câu lệnh điều kiện&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;if&lt;/span&gt; (age &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;18&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    console.log(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Bạn đã đủ tuổi.&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#ff7b72&#34;&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    console.log(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Bạn chưa đủ tuổi.&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-vòng-lặp&#34;&gt;&lt;strong&gt;2. Vòng lặp&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; i &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;0&lt;/span&gt;; i &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;5&lt;/span&gt;; i&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    console.log(i);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-kết-luận&#34;&gt;&lt;strong&gt;3. Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sử dụng điều kiện và vòng lặp giúp kiểm soát luồng thực thi chương trình.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Các hàm và phạm vi trong JavaScript</title>
+      <link>http://localhost:1313/en/posts/cachamvaphamvitrongjs/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/cachamvaphamvitrongjs/</guid>
+      
+      <description>&lt;h1 id=&#34;các-hàm-và-phạm-vi-trong-javascript&#34;&gt;&lt;strong&gt;Các hàm và phạm vi trong JavaScript&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-định-nghĩa-hàm&#34;&gt;&lt;strong&gt;1. Định nghĩa hàm&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;function&lt;/span&gt; greet(name) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff7b72&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;`Hello, &lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;${&lt;/span&gt;name&lt;span style=&#34;color:#a5d6ff&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;!`&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-hàm-mũi-tên&#34;&gt;&lt;strong&gt;2. Hàm mũi tên&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;const&lt;/span&gt; square &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; (x) =&amp;gt; x &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;*&lt;/span&gt; x;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-phạm-vi-biến&#34;&gt;&lt;strong&gt;3. Phạm vi biến&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Scope&lt;/strong&gt;: Chỉ hoạt động trong khối lệnh.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global Scope&lt;/strong&gt;: Có thể truy cập ở mọi nơi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-kết-luận&#34;&gt;&lt;strong&gt;4. Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hàm và phạm vi giúp tổ chức mã nguồn hiệu quả và tránh xung đột biến.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Biến, Hằng số và Kiểu dữ liệu trong JavaScript</title>
+      <link>http://localhost:1313/en/posts/bienvakieudulieujs/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/bienvakieudulieujs/</guid>
+      
+      <description>&lt;h1 id=&#34;biến-hằng-số-và-kiểu-dữ-liệu-trong-javascript&#34;&gt;&lt;strong&gt;Biến, Hằng số và Kiểu dữ liệu trong JavaScript&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-biến-và-hằng-số&#34;&gt;&lt;strong&gt;1. Biến và hằng số&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; age &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;25&lt;/span&gt;;      &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;// Biến có thể thay đổi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;const&lt;/span&gt; PI &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;3.14&lt;/span&gt;;   &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;// Hằng số không thay đổi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-kiểu-dữ-liệu&#34;&gt;&lt;strong&gt;2. Kiểu dữ liệu&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Kiểu&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ví dụ&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Number&lt;/td&gt;
+          &lt;td&gt;10, 3.14&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;String&lt;/td&gt;
+          &lt;td&gt;&amp;lsquo;Hello&amp;rsquo;, &amp;ldquo;World&amp;rdquo;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Boolean&lt;/td&gt;
+          &lt;td&gt;true, false&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Undefined&lt;/td&gt;
+          &lt;td&gt;let x;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Object&lt;/td&gt;
+          &lt;td&gt;{ name: &amp;lsquo;John&amp;rsquo;, age: 30 }&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Array&lt;/td&gt;
+          &lt;td&gt;[1, 2, 3]&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;3-kết-luận&#34;&gt;&lt;strong&gt;3. Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Việc hiểu rõ các kiểu dữ liệu giúp lập trình viên kiểm soát luồng dữ liệu tốt hơn.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Giới thiệu về JavaScript</title>
+      <link>http://localhost:1313/en/posts/gioithieujs/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/gioithieujs/</guid>
+      
+      <description>&lt;h1 id=&#34;giới-thiệu-về-javascript--ngôn-ngữ-lập-trình-phổ-biến-nhất&#34;&gt;&lt;strong&gt;Giới thiệu về JavaScript – Ngôn ngữ lập trình phổ biến nhất&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;&lt;strong&gt;1. JavaScript là gì?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình phổ biến nhất được sử dụng để xây dựng các trang web tương tác.&lt;/p&gt;
+&lt;h2 id=&#34;2-tại-sao-nên-học-javascript&#34;&gt;&lt;strong&gt;2. Tại sao nên học JavaScript?&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Được sử dụng rộng rãi trên toàn cầu.&lt;/li&gt;
+&lt;li&gt;Hỗ trợ lập trình Frontend và Backend.&lt;/li&gt;
+&lt;li&gt;Có hệ sinh thái phong phú với nhiều thư viện và framework như React, Angular, và Node.js.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ví-dụ-đầu-tiên&#34;&gt;&lt;strong&gt;3. Ví dụ đầu tiên&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;console.log(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Hello, JavaScript!&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4kết-luận&#34;&gt;&lt;strong&gt;4.Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaScript là nền tảng cho lập trình web hiện đại. Học JavaScript giúp bạn mở ra nhiều cơ hội việc làm.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Biến và Kiểu dữ liệu trong Java</title>
       <link>http://localhost:1313/en/posts/bienvakieudulieujava/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>

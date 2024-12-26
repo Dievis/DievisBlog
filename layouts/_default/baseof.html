@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
+    {{- $style := resources.Get "scss/custom.scss" }}
+    {{- if $style }}
+    {{ $style := resources.Get "scss/custom.scss" | toCSS }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{- end }}
+
     <body data-theme = "{{ .Site.Params.defaultColor }}" class="notransition">
         {{- partial "scriptsBodyStart.html" . -}}
         {{- partial "header.html" . -}}

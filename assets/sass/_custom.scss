@@ -1,0 +1,34 @@
+.about-page {
+    display: flex;               // Sử dụng Flexbox để căn giữa
+    flex-direction: column;      // Hiển thị nội dung theo cột
+    justify-content: center;     // Căn giữa theo chiều dọc
+    align-items: center;         // Căn giữa theo chiều ngang
+    min-height: 100vh;           // Chiều cao tối thiểu bằng 100% màn hình
+    text-align: center;          // Căn giữa văn bản
+    
+    h1 {
+      margin-bottom: 15px;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+  
+    h2 {
+      margin-bottom: 10px; 
+      font-size: 2em;      
+      font-weight: bold;
+    }
+  
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+  
+    img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;        // Làm tròn ảnh (nếu cần)
+      margin-bottom: 15px;       // Khoảng cách phía dưới ảnh
+    }
+  }
+  

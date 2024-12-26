@@ -214,6 +214,31 @@
     </item>
     
     <item>
+      <title>Giới thiệu về JavaScript</title>
+      <link>http://localhost:1313/en/posts/gioithieujs/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/gioithieujs/</guid>
+      
+      <description>&lt;h1 id=&#34;giới-thiệu-về-javascript--ngôn-ngữ-lập-trình-phổ-biến-nhất&#34;&gt;&lt;strong&gt;Giới thiệu về JavaScript – Ngôn ngữ lập trình phổ biến nhất&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;&lt;strong&gt;1. JavaScript là gì?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình phổ biến nhất được sử dụng để xây dựng các trang web tương tác.&lt;/p&gt;
+&lt;h2 id=&#34;2-tại-sao-nên-học-javascript&#34;&gt;&lt;strong&gt;2. Tại sao nên học JavaScript?&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Được sử dụng rộng rãi trên toàn cầu.&lt;/li&gt;
+&lt;li&gt;Hỗ trợ lập trình Frontend và Backend.&lt;/li&gt;
+&lt;li&gt;Có hệ sinh thái phong phú với nhiều thư viện và framework như React, Angular, và Node.js.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ví-dụ-đầu-tiên&#34;&gt;&lt;strong&gt;3. Ví dụ đầu tiên&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;console.log(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Hello, JavaScript!&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4kết-luận&#34;&gt;&lt;strong&gt;4.Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaScript là nền tảng cho lập trình web hiện đại. Học JavaScript giúp bạn mở ra nhiều cơ hội việc làm.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Biến và Kiểu dữ liệu trong Java</title>
       <link>http://localhost:1313/en/posts/bienvakieudulieujava/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>

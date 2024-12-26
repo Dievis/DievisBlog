@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-vi"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Biến, Hằng số và Kiểu dữ liệu trong JavaScript | Blog của Trần Phát Đạt</title>
+<meta property="og:title" content="Biến, Hằng số và Kiểu dữ liệu trong JavaScript | Blog của Trần Phát Đạt" />
+<meta name="twitter:title" content="Biến, Hằng số và Kiểu dữ liệu trong JavaScript | Blog của Trần Phát Đạt" />
+<meta itemprop="name" content="Biến, Hằng số và Kiểu dữ liệu trong JavaScript | Blog của Trần Phát Đạt" />
+<meta name="application-name" content="Biến, Hằng số và Kiểu dữ liệu trong JavaScript | Blog của Trần Phát Đạt" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="Hướng dẫn về biến và kiểu dữ liệu trong JavaScript">
+<meta itemprop="description" content="Hướng dẫn về biến và kiểu dữ liệu trong JavaScript" />
+<meta property="og:description" content="Hướng dẫn về biến và kiểu dữ liệu trong JavaScript" />
+<meta name="twitter:description" content="Hướng dẫn về biến và kiểu dữ liệu trong JavaScript" />
+
+<meta property="og:locale" content="en-vi" />
+<meta name="language" content="en-vi" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/bienvakieudulieujs/" title="" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.140.1">
+
+    
+    <meta property="og:url" content="http://localhost:1313/en/posts/bienvakieudulieujs/">
+  <meta property="og:site_name" content="Blog của Trần Phát Đạt">
+  <meta property="og:title" content="Biến, Hằng số và Kiểu dữ liệu trong JavaScript">
+  <meta property="og:description" content="Hướng dẫn về biến và kiểu dữ liệu trong JavaScript">
+  <meta property="og:locale" content="en_vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="en">
+    <meta property="article:published_time" content="2024-12-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-12T00:00:00+00:00">
+    <meta property="article:tag" content="JavaScript">
+    <meta property="article:tag" content="Lập Trình Web">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Biến, Hằng số và Kiểu dữ liệu trong JavaScript">
+  <meta name="twitter:description" content="Hướng dẫn về biến và kiểu dữ liệu trong JavaScript">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/en/posts/bienvakieudulieujs/">
+    <link href="/style.min.3368f229d41ee273bc64c478dbdb0fb1a17a51bfb3bff9e45f86329bfbe6685a.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+
+
+    <body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/en/about/">
+                        Về tôi
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/en/posts/">
+                        Bài đăng
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Biến, Hằng số và Kiểu dữ liệu trong JavaScript</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-12-12T00:00:00&#43;00:00" itemprop="datePublished"> Dec 12, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="biến-hằng-số-và-kiểu-dữ-liệu-trong-javascript"><strong>Biến, Hằng số và Kiểu dữ liệu trong JavaScript</strong></h1>
+<h2 id="1-biến-và-hằng-số"><strong>1. Biến và hằng số</strong></h2>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ff7b72">let</span> age <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">25</span>;      <span style="color:#8b949e;font-style:italic">// Biến có thể thay đổi
+</span></span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"></span><span style="color:#ff7b72">const</span> PI <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">3.14</span>;   <span style="color:#8b949e;font-style:italic">// Hằng số không thay đổi
+</span></span></span></code></pre></div><h2 id="2-kiểu-dữ-liệu"><strong>2. Kiểu dữ liệu</strong></h2>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Kiểu</strong></th>
+          <th><strong>Ví dụ</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Number</td>
+          <td>10, 3.14</td>
+      </tr>
+      <tr>
+          <td>String</td>
+          <td>&lsquo;Hello&rsquo;, &ldquo;World&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Boolean</td>
+          <td>true, false</td>
+      </tr>
+      <tr>
+          <td>Undefined</td>
+          <td>let x;</td>
+      </tr>
+      <tr>
+          <td>Object</td>
+          <td>{ name: &lsquo;John&rsquo;, age: 30 }</td>
+      </tr>
+      <tr>
+          <td>Array</td>
+          <td>[1, 2, 3]</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="3-kết-luận"><strong>3. Kết luận</strong></h2>
+<p>Việc hiểu rõ các kiểu dữ liệu giúp lập trình viên kiểm soát luồng dữ liệu tốt hơn.</p>
+
+            </div>
+        </article>
+        
+    </main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/Dievis" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer me"
+    title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 Trần Phát Đạt.
+        
+    </small>
+</footer><a href="#" title="" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

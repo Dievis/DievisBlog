@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functions on Blog của Trần Phát Đạt</title>
+    <link>http://localhost:1313/tags/functions/</link>
+    <description>Recent content in Functions on Blog của Trần Phát Đạt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-vi</language>
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Các hàm và phạm vi trong JavaScript</title>
+      <link>http://localhost:1313/en/posts/cachamvaphamvitrongjs/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/cachamvaphamvitrongjs/</guid>
+      
+      <description>&lt;h1 id=&#34;các-hàm-và-phạm-vi-trong-javascript&#34;&gt;&lt;strong&gt;Các hàm và phạm vi trong JavaScript&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1-định-nghĩa-hàm&#34;&gt;&lt;strong&gt;1. Định nghĩa hàm&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;function&lt;/span&gt; greet(name) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff7b72&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;`Hello, &lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;${&lt;/span&gt;name&lt;span style=&#34;color:#a5d6ff&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;!`&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-hàm-mũi-tên&#34;&gt;&lt;strong&gt;2. Hàm mũi tên&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;const&lt;/span&gt; square &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; (x) =&amp;gt; x &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;*&lt;/span&gt; x;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-phạm-vi-biến&#34;&gt;&lt;strong&gt;3. Phạm vi biến&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Scope&lt;/strong&gt;: Chỉ hoạt động trong khối lệnh.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global Scope&lt;/strong&gt;: Có thể truy cập ở mọi nơi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-kết-luận&#34;&gt;&lt;strong&gt;4. Kết luận&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Hàm và phạm vi giúp tổ chức mã nguồn hiệu quả và tránh xung đột biến.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
