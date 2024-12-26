@@ -1,0 +1,42 @@
+baseURL = ''
+languageCode = 'en-vi'
+title = 'Blog của Trần Phát Đạt'
+theme = 'awesome'
+
+[params]
+  avatar = "images/tn.png" # Đường dẫn được sửa để truy cập từ thư mục static/images/
+  author = { name = "Trần Phát Đạt", email = "dattp3010@gmail.com" }
+  description = "Blog chia sẻ hành trình học tập và lập trình của tôi!"
+  goToTop = true # Bật nút "Lên đầu trang"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/dattp3010"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
+
+[[params.socialIcons]]
+name = "rss"
+url = "index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Về tôi"
+    url = "/en/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "blog"
+    name = "Bài đăng"
+    url = "/en/posts/"
+    weight = 2
+
+[markup]
+  [markup.highlight]
+    style = 'github-dark' # Thiết lập cú pháp nổi bật cho dark mode
+
+[services]
+  [services.disqus]
+    shortname = "your-disqus-shortname" # Đổi thành ID Disqus của bạn nếu cần
