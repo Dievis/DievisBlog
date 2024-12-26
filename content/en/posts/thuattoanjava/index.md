@@ -1,7 +1,7 @@
 ---
 title: Các Thuật Toán Cơ Bản trong Java
 date: 2024-12-23
-author: Tác Giả Blog
+author: Đạt TP
 description: Sơ lược về các thuật toán cơ bản trong Java
 tags:
   - Java

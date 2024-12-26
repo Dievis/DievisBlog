@@ -1,0 +1,1 @@
+![avt](content/en/about/myavt.jpg)

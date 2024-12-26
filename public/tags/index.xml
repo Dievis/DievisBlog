@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blog của Trần Phát Đạt</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Blog của Trần Phát Đạt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-vi</language>
+    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hướng Dẫn</title>
+      <link>http://localhost:1313/tags/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/tags/java/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/java/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lập Trình</title>
+      <link>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
