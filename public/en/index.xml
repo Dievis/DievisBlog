@@ -8,13 +8,48 @@
     <language>en-vi</language>
     <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Thông tin của tôi</title>
       <link>http://localhost:1313/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/en/about/</guid>
       
-      <description>&lt;p&gt;&lt;img src=&#34;content/en/about/myavt.jpg&#34; alt=&#34;avt&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/myavt.jpg&#34; alt=&#34;avt&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;xin-chào-&#34;&gt;&lt;strong&gt;Xin chào !&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Tôi là &lt;strong&gt;Trần Phát Đạt&lt;/strong&gt;, là sinh viên năm 4 của trường đại học Công Nghệ TP.HCM và có niềm đam mê với công nghệ và yêu thích việc tìm hiểu những xu hướng mới trong lập trình.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngày sinh: 30/10/2003&lt;/li&gt;
+&lt;li&gt;SĐT: 0867431942&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:Dattp3010@gmail.com&#34;&gt;Dattp3010@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tôi có kinh nghiệm làm việc với nhiều ngôn ngữ lập trình như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, &lt;strong&gt;C#&lt;/strong&gt;, &lt;strong&gt;C++&lt;/strong&gt;, &lt;strong&gt;SQL&lt;/strong&gt;, &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, &lt;strong&gt;PHP&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Bên cạnh đó, tôi luôn nỗ lực để phát triển bản thân và chia sẻ kiến thức thông qua các bài viết trên blog này.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;dự-án-thực-hiện&#34;&gt;&lt;strong&gt;DỰ ÁN THỰC HIỆN&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;web-thương-mại-điện-tử&#34;&gt;&lt;strong&gt;Web Thương mại điện tử&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Dievis/JavaSpringBoots&#34;&gt;https://github.com/Dievis/JavaSpringBoots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Công nghệ sử dụng:&lt;/strong&gt; Java Spring boot, MySQL
+&lt;strong&gt;Mô tả:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;CRUD&lt;/li&gt;
+&lt;li&gt;Đăng nhập, đăng ký tài khoản&lt;/li&gt;
+&lt;li&gt;Giỏ hàng&lt;/li&gt;
+&lt;li&gt;Thanh toán ngân hàng&lt;/li&gt;
+&lt;li&gt;Tìm kiếm sản phẩm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;game-3d-anomaly&#34;&gt;&lt;strong&gt;Game 3D Anomaly&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/NHD2507/DACN&#34;&gt;https://github.com/NHD2507/DACN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Công nghệ sử dụng:&lt;/strong&gt; Unity
+&lt;strong&gt;Mô tả:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Chơi mới, lưu tiến độ, tùy chỉnh&lt;/li&gt;
+&lt;li&gt;Advanced character movement&lt;/li&gt;
+&lt;li&gt;Tương tác vật thể&lt;/li&gt;
+&lt;li&gt;Biến đổi vật thể theo thời gian&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     

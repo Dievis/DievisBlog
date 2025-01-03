@@ -27,7 +27,9 @@
 &lt;li&gt;&lt;strong&gt;Global Scope&lt;/strong&gt;: Có thể truy cập ở mọi nơi.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;4-kết-luận&#34;&gt;&lt;strong&gt;4. Kết luận&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Hàm và phạm vi giúp tổ chức mã nguồn hiệu quả và tránh xung đột biến.&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;Hàm và phạm vi giúp tổ chức mã nguồn hiệu quả và tránh xung đột biến.&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     

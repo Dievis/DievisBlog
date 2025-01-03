@@ -420,7 +420,23 @@
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/myavt.jpg&#34; alt=&#34;avt&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;xin-chào-&#34;&gt;&lt;strong&gt;Xin chào !&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;Tôi là &lt;strong&gt;Trần Phát Đạt&lt;/strong&gt;, là sinh viên năm 4 của trường đại học Công Nghệ TP.HCM và có niềm đam mê với công nghệ và yêu thích việc tìm hiểu những xu hướng mới trong lập trình.&lt;/p&gt;
-&lt;p&gt;Tôi có kinh nghiệm làm việc với nhiều ngôn ngữ lập trình như &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, và &lt;strong&gt;C#&lt;/strong&gt;. Bên cạnh đó, tôi luôn nỗ lực để phát triển bản thân và chia sẻ kiến thức thông qua các bài viết trên blog này.&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;Ngày sinh: 30/10/2003&lt;/li&gt;
+&lt;li&gt;SĐT: 0867431942&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:Dattp3010@gmail.com&#34;&gt;Dattp3010@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tôi có kinh nghiệm làm việc với nhiều ngôn ngữ lập trình như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, &lt;strong&gt;C#&lt;/strong&gt;, &lt;strong&gt;C++&lt;/strong&gt;, &lt;strong&gt;SQL&lt;/strong&gt;, &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, &lt;strong&gt;PHP&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Bên cạnh đó, tôi luôn nỗ lực để phát triển bản thân và chia sẻ kiến thức thông qua các bài viết trên blog này.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;dự-án-thực-hiện&#34;&gt;&lt;strong&gt;DỰ ÁN THỰC HIỆN&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;web-thương-mại-điện-tử&#34;&gt;&lt;strong&gt;Web Thương mại điện tử&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Dievis/JavaSpringBoots&#34;&gt;https://github.com/Dievis/JavaSpringBoots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Công nghệ sử dụng: Java Spring boot, MySQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Mô tả:&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     

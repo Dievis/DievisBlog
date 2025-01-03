@@ -41,9 +41,20 @@
     </item>
     
     <item>
+      <title>DOM Manipulation</title>
+      <link>http://localhost:1313/tags/dom-manipulation/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/dom-manipulation/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>JavaScript</title>
       <link>http://localhost:1313/tags/javascript/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/javascript/</guid>
       
@@ -52,9 +63,31 @@
     </item>
     
     <item>
+      <title>Control Structures</title>
+      <link>http://localhost:1313/tags/control-structures/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/control-structures/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/tags/functions/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/functions/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Lập Trình Web</title>
       <link>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh-web/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh-web/</guid>
       

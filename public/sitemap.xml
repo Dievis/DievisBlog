@@ -32,13 +32,34 @@
     <loc>http://localhost:1313/en/posts/thuattoanjava/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/gioithieujs/</loc>
-    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/dom-manipulation/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/javascript/</loc>
-    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/lamviecvoidomtrongjs/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/control-structures/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/vonglapv%C3%A0cmdtrongjs/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/cachamvaphamvitrongjs/</loc>
+    <lastmod>2024-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/functions/</loc>
+    <lastmod>2024-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/bienvakieudulieujs/</loc>
+    <lastmod>2024-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh-web/</loc>
+    <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/gioithieujs/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/bienvakieudulieujava/</loc>
@@ -47,8 +68,8 @@
     <loc>http://localhost:1313/en/posts/uuvanhuocdiemjava/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
   </url>
 </urlset>
